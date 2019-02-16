@@ -1,0 +1,9 @@
+React is a js library for building fast UI. It was dev at fbook in 2011. At the heart react app is a "component"-- it esentially a piece of UI.
+Every react app has at least one component known as the root component. 
+At dev level a 'component ' is typically a js class that has some state(state here is the data to be dispalyed) and a render method displays what the ui should look like. The output of the render is a react element.
+React keeps a light weight react element in memory refered to as virtual DOM.
+
+To start react app after installing node in your pc run "npm i -g create-react-app"
+Using the above command make you create a react app (eg "create-react-app myReactApp")with zero-config: So you will already have a dev server, webpack, babel(Modern js compiler).etc.. But to remove config you can run "npm run eject"
+
+To run a react app, from the directory type "npm start"
